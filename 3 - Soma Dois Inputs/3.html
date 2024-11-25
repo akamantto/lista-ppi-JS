@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma</title>
+
+    <style>
+        html,body{
+            background-color: black;
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h2,label{
+            color: aliceblue;
+            width: 70%;
+        }
+        input{
+            background-color: aliceblue;
+            width: 60%;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            border-radius: 20px;
+            padding-bottom: 10px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            max-width: 230px;
+            width: 50vw;
+            height: auto;
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>Soma</h2>
+    <label for="#input1">Primeiro Numero</label>
+    <div><input id="input1" type="number"></div>
+    <label for="#input2">Segundo Numero</label>
+    <div><input id="input2" type="text">
+    <div><button onclick=soma() style="margin-bottom: 10px;width:50%;">Somar</button></div>
+    <label for="resultado">Resultado</label>
+    <div><input id="resultado" type="text"></div>
+</div>
+
+    <script src="3.js"></script>
+
+</body>
+</html>
